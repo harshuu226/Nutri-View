@@ -1,0 +1,5 @@
+{
+  "appId": "com.snapstats.app",
+  "appName": "SnapStats",
+  "webDir": "dist"
+}
