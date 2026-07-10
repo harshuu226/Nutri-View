@@ -25,7 +25,9 @@ app.use(helmet({
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
   'http://localhost:3000',
-  'https://lens-nutrition.vercel.app', // Update with your Vercel URL
+  'https://lens-nutrition.vercel.app',
+  'http://localhost',
+  'capacitor://localhost'
 ];
 
 app.use(cors({
